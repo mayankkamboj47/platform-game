@@ -4,8 +4,13 @@
   "description": "A platform game from eloquent javascript (http://www.eloquentjavascript.net)",
   "main": "index.html",
   "scripts": {
+    "lite":"lite-server",
+    "start":"npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
